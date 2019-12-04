@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "350183637276",
+    "firebase_url": "https://fooddeliveryapp-27a82.firebaseio.com",
+    "project_id": "fooddeliveryapp-27a82",
+    "storage_bucket": "fooddeliveryapp-27a82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350183637276:android:5265fd890b01b098197ad9",
+        "android_client_info": {
+          "package_name": "com.example.foodforver1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350183637276-ukmdnvv6nulbl6lu4n0s6am6h8du580m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodforver1",
+            "certificate_hash": "b833fa8de570a84f0119f7896cee7a09ab9a77d3"
+          }
+        },
+        {
+          "client_id": "350183637276-a71ckg2h95ocq9ghfd9vs3vuc2f465nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBxkuHzbInLG7z09iqQjjP5XQMWaEcIuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350183637276-a71ckg2h95ocq9ghfd9vs3vuc2f465nq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350183637276:android:dba15242036ef4f0197ad9",
+        "android_client_info": {
+          "package_name": "com.pratthana.foodforv100"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350183637276-1jtqnlgau8j47t6ijaqr957gs73rq81p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pratthana.foodforv100",
+            "certificate_hash": "b833fa8de570a84f0119f7896cee7a09ab9a77d3"
+          }
+        },
+        {
+          "client_id": "350183637276-a71ckg2h95ocq9ghfd9vs3vuc2f465nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBxkuHzbInLG7z09iqQjjP5XQMWaEcIuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350183637276-a71ckg2h95ocq9ghfd9vs3vuc2f465nq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350183637276:android:7ce64096c041b250197ad9",
+        "android_client_info": {
+          "package_name": "com.pratthana.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350183637276-6t6po4hj8oemsckqilpmhtgr6lre5q5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pratthana.myapplication",
+            "certificate_hash": "b833fa8de570a84f0119f7896cee7a09ab9a77d3"
+          }
+        },
+        {
+          "client_id": "350183637276-a71ckg2h95ocq9ghfd9vs3vuc2f465nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBxkuHzbInLG7z09iqQjjP5XQMWaEcIuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350183637276-a71ckg2h95ocq9ghfd9vs3vuc2f465nq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

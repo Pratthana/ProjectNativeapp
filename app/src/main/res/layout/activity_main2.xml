@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddaa99"
+    tools:context=".Main2Activity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="316dp"
+        android:layout_height="601dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="41dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#E7E4E4">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="101dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/donut" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="95dp"
+                android:text="Dunking Donut"
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="135dp"
+                android:layout_marginTop="35dp"
+                android:text="Min Delivery : 25.- / "
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="35dp"
+                android:text="CLOSE"
+                android:textColor="#F10404"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="195dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/favorite" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="245dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/favorite" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="235dp"
+                android:layout_marginTop="95dp"
+                android:background="#7CB342"
+                android:text="MORE..."
+                android:textSize="10sp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="140dp"
+            android:backgroundTint="#E7E4E4">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="101dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/steak" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="95dp"
+                android:text="Steak To Night"
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="135dp"
+                android:layout_marginTop="35dp"
+                android:text="Min Delivery : 69.- / "
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="35dp"
+                android:text="OPEN"
+                android:textColor="#F10404"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="195dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="245dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/favorite" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="235dp"
+                android:layout_marginTop="95dp"
+                android:background="#7CB342"
+                android:onClick="btn2Click"
+                android:text="MORE..."
+                android:textSize="10sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="265dp"
+            android:backgroundTint="#E7E4E4">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="101dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/baker" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="95dp"
+                android:text="Fimaly Food"
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="135dp"
+                android:layout_marginTop="35dp"
+                android:text="Min Delivery : 69.- / "
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="35dp"
+                android:text="CLOSE"
+                android:textColor="#F10404"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="195dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="245dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/favorite" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="235dp"
+                android:layout_marginTop="95dp"
+                android:background="#7CB342"
+                android:text="MORE..."
+                android:textSize="10sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="390dp"
+            android:backgroundTint="#E7E4E4">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="101dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/wifi" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="95dp"
+                android:text="Cafe"
+                android:textColor="#0C0C0C" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="135dp"
+                android:layout_marginTop="35dp"
+                android:text="Min Delivery : 69.- / "
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="35dp"
+                android:text="CLOSE"
+                android:textColor="#F10404"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="195dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/favorite" />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/favorite" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="245dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/favorite" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="235dp"
+                android:layout_marginTop="95dp"
+                android:background="#7CB342"
+                android:text="MORE..."
+                android:textSize="10sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="515dp"
+            android:backgroundTint="#E7E4E4">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="101dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/ramen" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="135dp"
+                android:layout_marginTop="35dp"
+                android:text="Min Delivery : 69.- / "
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="35dp"
+                android:text="CLOSE"
+                android:textColor="#F10404"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="195dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="220dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/favorite" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="245dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/favorite" />
+
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

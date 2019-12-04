@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddaa99"
+    tools:context=".Main3Activity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="316dp"
+        android:layout_height="601dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="41dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/steak" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="115dp"
+            android:text="Steak To Night"
+            android:textColor="#0C0C0C"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@drawable/favorite" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="90dp"
+            android:text="[ OPEN ]"
+            android:textColor="#F10404"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="165dp"
+            android:text=".............................MENU..........................."
+            android:textColor="#00897B"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="200dp"
+            android:text="Double Black Peppered
+                                    Pork Burger Steak                                79.-"
+            android:textColor="#3D3D3D"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="450dp"
+            android:text="...................................................................."
+            android:textColor="#00897B"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="200dp"
+            android:text="+" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="250dp"
+            android:text="Original Chicken Steak
+                      79.-"
+            android:textColor="#3D3D3D"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="250dp"
+            android:text="+" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="300dp"
+            android:text="Black Peppered Chicken
+                              Breast Steak
+                                        99.-"
+            android:textColor="#3D3D3D"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="300dp"
+            android:text="+" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="350dp"
+            android:text="Mini Crispy Dory Fillet Steak
+                                   with Baked Cheese
+                         139.-"
+            android:textColor="#3D3D3D"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="350dp"
+            android:text="+" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="400dp"
+            android:text="Crispy Dory Fillet  Steak
+                 149.-"
+            android:textColor="#3D3D3D"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="400dp"
+            android:text="+" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="316dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#887272"
+            android:layout_marginTop="520dp">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="15dp"
+                android:text="ORDER" />
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
